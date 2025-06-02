@@ -243,9 +243,9 @@ const TeacherClassDetails = () => {
                         <Button
                             variant="contained"
                             onClick={handleAutoGrade}
-                            disabled={grading || !assignments.live}
+                            disabled={grading || assignments.live}
                         >
-                            {assignments.live ? (
+                            {!assignments.live ? (
                                 grading ? (
                                     <CircularProgress size={20} sx={{ color: 'white' }} />
                                 ) : (

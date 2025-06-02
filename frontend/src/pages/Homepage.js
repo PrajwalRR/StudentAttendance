@@ -17,13 +17,13 @@ const Homepage = () => {
                         <StyledTitle>
                             Welcome to
                             <br />
-                            School Management
+                            Smart Academic Monitoring
                             <br />
                             System
                         </StyledTitle>
                         <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
-                            Seamlessly track attendance, assess performance, and provide feedback.
+                            Streamline Smart Academic Monitoring System, class organization, and add students and faculty.
+                            Seamlessly track attendance, assess performance , Auto-Grading , and provide feedback.
                             Access records, view marks, and communicate effortlessly.
                         </StyledText>
                         <StyledBox>
